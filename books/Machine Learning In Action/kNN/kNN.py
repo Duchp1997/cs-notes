@@ -15,7 +15,9 @@ def classify0(inX, dataSet, labels, k):
     sqDistances = sqDiffMat.sum(axis=1) # 把每行元素相加 得到一个列向量sqDistances
     distances = sqDistances ** 0.5 # 对列向量sqDistances每个元素开根号 结果为列向量distances
 
-    sortedDistanceIndices = distances.argsort() # 使用argsort排序 返回从小到大的顺序值 如{2, 4, 1}返回{1, 2, 0}
+    # 使用argsort排序 返回从小到大的顺序值 
+    # 如{2, 4, 1}返回{1, 2, 0}
+    sortedDistanceIndices = distances.argsort() 
     classCount = {} # classCount字典 用于计数
 
     # 2.选择与当前点距离最小的k各点

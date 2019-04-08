@@ -51,9 +51,14 @@ def datingClassTest():
     # 计算测试集错误率
     for i in range(numTestVecs):
         # 执行分类器
-        classifierResult = kNN.classify0(normMat[i,:], normMat[numTestVecs:m,:], datingLabels[numTestVecs:m], 3)
+        classifierResult = kNN.classify0(
+            normMat[i,:],
+            normMat[numTestVecs:m,:],
+            datingLabels[numTestVecs:m],
+            3)
 
-        print('the classifier came back with: %d, the read answer is %d'%(classifierResult, datingLabels[i]))
+        print('the classifier came back with: %d, the read answer is %d'
+            %(classifierResult, datingLabels[i]))
         # 如果分类器结果与label值不一致 统计为错误
         if classifierResult != datingLabels[i]:
             errorCount += 1
