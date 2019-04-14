@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\directory\Background\shell\cmdConsole]
+@="ConsoleZ"
+"Icon"="D:\Tools\ConsoleZ.x64\Console.exe"
+[HKEY_CLASSES_ROOT\directory\Background\shell\cmdConsole\command]
+@="D:\Tools\ConsoleZ.x64\Console.exe"
+
+;HKEY_CLASSES_ROOT\*\shell   对文件弹出的菜单项
+;HKEY_CLASSES_ROOT\folder\shell   对文件夹和驱动器弹出的菜单项
+;HKEY_CLASSES_ROOT\directory\shell    对文件夹弹出的部分内容
+;HKEY_CLASSES_ROOT\drive\shell        对驱动文件夹弹出的菜单项

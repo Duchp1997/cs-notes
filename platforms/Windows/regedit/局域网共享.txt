@@ -1,0 +1,5 @@
+command
+net user guest /active:yes
+net user guest 123456
+
+netplwiz

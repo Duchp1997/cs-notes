@@ -1,0 +1,26 @@
+
+
+Windows Registry Editor Version 5.00
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\AnyCode]
+
+@="@C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\MSEnv\\\\VSFileHandler_64.dll,-251"
+
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\AnyCode\command]
+
+@="\"C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\MSEnv\\\\VSLauncher.exe\" \"%1\" source:Explorer"
+
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\AnyCode]
+
+@="@C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\MSEnv\\\\VSFileHandler_64.dll,-251"
+
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\AnyCode\command]
+
+@="\"C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\MSEnv\\\\VSLauncher.exe\" \"%V\" source:ExplorerBackground"

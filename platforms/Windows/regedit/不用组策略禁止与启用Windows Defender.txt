@@ -1,0 +1,6 @@
+﻿打开“命令提示符（管理员）”，然后输入：
+
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 1 /t REG_DWORD /f
+
+
+https://www.ithome.com/html/win10/279485.htm

@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+[-HKEY_CLASSES_ROOT\lnkfile\shellex\ContextMenuHandlers\Compatibility]
+[-HKEY_CLASSES_ROOT\exefile\shellex\ContextMenuHandlers\Compatibility]
+[HKEY_CLASSES_ROOT\batfile\ShellEx\ContextMenuHandlers\Compatibility]

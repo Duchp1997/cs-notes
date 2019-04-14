@@ -1,0 +1,1 @@
+到注册表 HKEY_CLASSES_ROOT\Folder\shell\pintohome，右侧新建String Value项目，名字放Extended，以后要恢复只需删掉它就行。
