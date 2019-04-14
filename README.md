@@ -1,4 +1,4 @@
 # cs-notes
 
-My personal notes about CS(Computer Science), including programming language, algorithm, computer graphics, etc..
+My personal notes about CS(Computer Science), including computer graphics, machine learning, etc..
 
